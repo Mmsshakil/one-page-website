@@ -88,3 +88,48 @@ header {
     font-weight: 400;
     line-height: 26px;
 }
+
+
+/* my plan start */
+.my-plan {
+    text-align: center;
+    padding: 230px;
+}
+
+.plan-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.plan-details>li {
+    /* margin: 30px 0px; */
+    list-style-type: none;
+
+}
+
+.plan-name {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-details>li>p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* mindset */
+.mindset-img {
+    background-image: url('/images/watch.png'), url('/images/gradient1.png');
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    background-size: 100% 100%;
+    object-fit: cover;
+
+}
